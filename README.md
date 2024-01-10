@@ -10,3 +10,4 @@ this will add the basic prisma setup in the app along with the db that we have s
 postgres and it will also add .env file with db connection string
 
 Now in the prisma file we have to write code in prisma format and bydefault we have datasource
+that is for db connection and second one is Client that will change the prisma code into prisma-client-js and that is default generator we can change that
