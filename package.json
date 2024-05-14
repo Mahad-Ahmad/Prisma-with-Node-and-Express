@@ -4,6 +4,9 @@
   "description": "Prisma with Node-js and Express-js:",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "devStart": "nodemon --exec npx tsx src/index.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
